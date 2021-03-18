@@ -1,0 +1,111 @@
+header {
+    background-color: black;
+    padding: .3%;
+}
+    .marc1 {
+        /*background-color: blue;*/
+        border: green solid 0px;
+        display: flex;
+        justify-content: center;
+        /*margin: 0px;*/
+        width: 100%;
+    }
+        .box1{
+            background-color: brown;
+            width: 20%;
+            border-width: 10px;
+            border-color: gray;
+            border-style: solid;
+            height: 5px;
+            padding: 5px 0px;
+            margin: 10px 0px;
+        }
+        .box2{
+            background-color: brown;
+            border-width: 10px 0px;
+            border-color: gray;
+            border-style: solid;
+            height: 5px;
+            padding: 5px 0px;
+            margin: 10px 0px;
+            width: 50%;
+        }
+    .marc2 {
+        /*    background-color: blue;    */
+        border: green solid 0px;
+        /*    color: brown;    */
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+        .box3{
+            background-color: yellow;
+            border-width: 10px;
+            border-color: orange;
+            border-style: solid;
+            height: 5px;
+            padding: 5px 0px;
+            width: 93%;
+        }
+
+main {
+    background-color: whitsmoke;
+    color: black;
+    padding: 5px;
+}
+    .marc3 {
+        background-color: black;
+        border: solid black 5px;
+        display: flex;
+        margin: auto;
+        width: 98%;
+    }
+        .marc3a{
+            border-color: black;
+            border-style: solid;
+            border-width: 4px;
+            font-size: 4px;
+            width: 67%;
+        }
+            .marc3a1 {
+                background-color:#1f6cb0;
+                border-color:  #4e4e6a;
+                border-style: solid;
+                border-width: 4px;
+                color:#1f6cb0; /*mateix back*/
+                display: flex;
+            }
+                .marc3a1in {
+                    border-color:#4e4e6a;
+                    border-style: solid;
+                    border-width: 4px;
+                    width: 50%;
+                }
+            .marc3a2 {
+                background-color:#70a3c4;
+                border-color:  #4e4e6a;
+                border-style: solid;
+                border-width: 4px;
+                color:#70a3c4; /*mateix back*/
+            }
+        .marc3b {
+            background-color: #f73f52;
+            border: solid black 5px;
+            font-size: 11px;
+            width: 33%;
+        }
+            .marc3b1 {
+                background-color: #feea85;
+                color: #feea85; /*mateix back*/
+                margin: auto;
+                width: 90%;
+            }
+footer {
+    background-color: #e6af2e;
+    border: solid black 10px;
+    color: #e6af2e; /*mateix back*/
+    font-size: 5px;
+    margin: auto;
+    width: 95%;
+    }
