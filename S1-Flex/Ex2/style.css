@@ -1,0 +1,23 @@
+header {
+    background-color: black;
+    padding: .3%;
+}
+
+    .marc {
+        /*background-color: blue;*/
+        border: blue solid 10px;
+        display: flex;
+       
+        flex-flow: row wrap;
+        /*Then we define how is distributed the remaining space */
+  
+        align-items: flex-start;
+        align-content: flex-start;
+        flex: auto;
+        margin: auto;
+        width: 90%;
+
+    }
+    .box {
+        border: green solid 10px;
+    }
