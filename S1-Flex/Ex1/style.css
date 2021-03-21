@@ -1,111 +1,77 @@
-header {
-    background-color: black;
-    padding: .3%;
-}
-    .marc1 {
-        /*background-color: blue;*/
-        border: green solid 0px;
-        display: flex;
-        justify-content: center;
-        /*margin: 0px;*/
-        width: 100%;
+body > div {
+    color: white;
     }
-        .box1{
-            background-color: brown;
-            width: 20%;
-            border-width: 10px;
-            border-color: gray;
-            border-style: solid;
-            height: 5px;
-            padding: 5px 0px;
-            margin: 10px 0px;
-        }
-        .box2{
-            background-color: brown;
-            border-width: 10px 0px;
-            border-color: gray;
-            border-style: solid;
-            height: 5px;
-            padding: 5px 0px;
-            margin: 10px 0px;
-            width: 50%;
-        }
-    .marc2 {
-        /*    background-color: blue;    */
-        border: green solid 0px;
-        /*    color: brown;    */
+.marc1 {
+    background-color:black;
+    border: black solid 15px;
+} 
+    .box1a {
+        background-color: #2d4059;
         display: flex;
-        justify-content: center;
-        margin-bottom: 10px;
-        width: 100%;
+        flex-flow: row wrap;
     }
-        .box3{
-            background-color: yellow;
-            border-width: 10px;
-            border-color: orange;
-            border-style: solid;
-            height: 5px;
-            padding: 5px 0px;
-            width: 93%;
+        .box1a > div {
+        background-color:#ea5455;
+        color: #ea5455; /*mateix color q fons */
+        margin: 15px;
+        }
+        .extrem {
+            flex-grow: 1;
+        }
+        .mig {
+            flex-grow: 3;
+        }
+    .box1b {
+        background-color: #fed460;
+        border: #f07b3f solid 15px;
+        color: #fed460 ; /*mateix color q fons */
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+.marc2 {
+    background-color:black;
+    border: black solid 7px;
+    display: flex;
+    flex-flow: row wrap;
+    }
+    .box2a {
+        background-color: #2d4059;
+        border: black solid 7px;
+        display: flex;
+        flex-flow: row wrap;
+        flex-grow: 3;
+        justify-content: center;
+        }
+        .box2a > div {   
+            background-color: #1f6cb0;
+            border: #2d4059 solid 7px;
+            color: #1f6cb0; /*mateix color q fons*/
+            flex-basis: 46%;
+            flex-grow: 1;
+            }
+        .linia {
+            background-color:#70a3c4;
+            color: #70a3c4; /*mateix color q fons*/
+            flex-grow: 2;
+            }
+       .box2b {
+            background-color:#f73f52;
+            border: black solid 7px;
+            display: flex;
+            flex-flow: column wrap;
+            flex-grow: 1;
+            justify-content: flex-start;
+            padding: 7px;
+        }
+        .box2b > div {
+            background-color:#feea85;
+            color: #feea85; /*mateix color q fons*/
+            margin: 2%;
         }
 
-main {
-    background-color: whitsmoke;
-    color: black;
-    padding: 5px;
-}
-    .marc3 {
-        background-color: black;
-        border: solid black 5px;
-        display: flex;
-        margin: auto;
-        width: 98%;
-    }
-        .marc3a{
-            border-color: black;
-            border-style: solid;
-            border-width: 4px;
-            font-size: 4px;
-            width: 67%;
-        }
-            .marc3a1 {
-                background-color:#1f6cb0;
-                border-color:  #4e4e6a;
-                border-style: solid;
-                border-width: 4px;
-                color:#1f6cb0; /*mateix back*/
-                display: flex;
-            }
-                .marc3a1in {
-                    border-color:#4e4e6a;
-                    border-style: solid;
-                    border-width: 4px;
-                    width: 50%;
-                }
-            .marc3a2 {
-                background-color:#70a3c4;
-                border-color:  #4e4e6a;
-                border-style: solid;
-                border-width: 4px;
-                color:#70a3c4; /*mateix back*/
-            }
-        .marc3b {
-            background-color: #f73f52;
-            border: solid black 5px;
-            font-size: 11px;
-            width: 33%;
-        }
-            .marc3b1 {
-                background-color: #feea85;
-                color: #feea85; /*mateix back*/
-                margin: auto;
-                width: 90%;
-            }
-footer {
+.marc3 {
     background-color: #e6af2e;
-    border: solid black 10px;
-    color: #e6af2e; /*mateix back*/
-    font-size: 5px;
-    margin: auto;
-    width: 95%;
-    }
+    border: black solid 15px;
+    color: #e6af2e; /*mateix color q fons*/
+    }               
