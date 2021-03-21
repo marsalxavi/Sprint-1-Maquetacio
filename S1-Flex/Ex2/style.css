@@ -1,0 +1,97 @@
+body > div {
+    color: white;
+    }
+.marc1 {
+    background-color:black;
+    border: black solid 15px;
+} 
+    .box1a {
+        background-color: #2d4059;
+        display: flex;
+        flex-flow: row wrap;
+    }
+        .box1a > div {
+        background-color:#ea5455;
+        color: #ea5455; /*mateix color q fons */
+        margin: 15px;
+        }
+        .extrem {
+            flex-grow: 1;
+        }
+        .mig {
+            flex-grow: 3;
+        }
+    .box1b {
+        background-color: #fed460;
+        border: #f07b3f solid 15px;
+        color: #fed460 ; /*mateix color q fons */
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+.marc2 {
+    background-color:black;
+    border: black solid 7px;
+    display: flex;
+    flex-flow: row wrap;
+    }
+    .box2a {
+        background-color: #2d4059;
+        border: black solid 7px;
+        display: flex;
+        flex-flow: row wrap;
+        flex-grow: 3;
+        justify-content: center;
+        }
+        .box2a > div {   
+            background-color: #1f6cb0;
+            border: #2d4059 solid 10px;
+            color: #1f6cb0; /*mateix color q fons*/
+            flex-basis: 46%;
+            flex-grow: 1;
+            /* box-sizing: border-box; */
+            }
+        .linia {
+            background-color:#70a3c4;
+            color: #70a3c4; /*mateix color q fons*/
+            flex-grow: 2;
+            }
+       .box2b {
+            background-color:#f73f52;
+            border: black solid 7px;
+            display: flex;
+            flex-flow: column wrap;
+            flex-grow: 1;
+            justify-content: flex-start;
+            padding: 7px;
+        }
+        .box2b > div {
+            background-color:#feea85;
+            color: #feea85; /*mateix color q fons*/
+            margin: 2%;
+        }
+
+.marc3 {
+    background-color: #e6af2e;
+    border: black solid 15px;
+    color: #e6af2e; /*mateix color q fons*/
+    }
+
+/* Adaptació per Tablet ----------- */
+    @media only screen and (max-width: 768px) {
+
+
+    .marc2 {
+        display: block;
+        /* box-sizing: border-box; */
+        background-color: yellow;
+        border-color: yellow;
+        }
+    .box2a{
+        border-color: yellow;
+        /* flex-grow: 1; */
+        }
+    .box2b{
+        border-color: yellow;
+        }
+    }
